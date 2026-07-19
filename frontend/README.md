@@ -1,32 +1,127 @@
-# React + TypeScript + Vite
+# CodeReview.ai Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern frontend for the **AI Code Review Platform**, built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. It provides an intuitive interface for GitHub authentication, repository management, AI-powered code reviews, analytics, and user settings.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- GitHub Authentication
+- Responsive Dashboard
+- Repository Management
+- AI Review Interface
+- Analytics Dashboard
+- Notifications
+- User Settings
+- Modern Responsive UI
+- Dark Theme
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+- Framer Motion
+- Lucide React
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/prathambalehosurr/code-review-platform.git
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Navigate to the frontend:
+
+```bash
+cd code-review-platform/frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Environment Variables
+
+Create a `.env` file in the frontend directory.
+
+```env
+VITE_API_URL=http://localhost:5000/api/v1
+```
+
+---
+
+## Available Scripts
+
+```bash
+npm run dev       # Start development server
+npm run build     # Build for production
+npm run preview   # Preview production build
+npm run lint      # Run ESLint
+```
+
+---
+
+## Project Structure
+
+```text
+frontend/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   ├── services/
+│   ├── hooks/
+│   ├── contexts/
+│   ├── utils/
+│   ├── types/
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+└── vite.config.ts
+```
+
+---
+
+## Screens
+
+- Landing Page
+- Dashboard
+- Repository Management
+- AI Reviews
+- Analytics
+- Settings
+
+---
+
+## License
+
+This project is intended for educational and learning purposes.
+
+Thank You
