@@ -120,3 +120,4 @@ Here are some helpful commands for maintaining code quality during development:
 
 Happy coding!
 Good night my friends <3
+f*** you
