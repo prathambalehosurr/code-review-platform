@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Bell, ChevronDown, LogOut, Settings, ExternalLink, Check, BellOff } from 'lucide-react';
+import { Bell, ChevronDown, LogOut, Settings, ExternalLink, BellOff } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 
 interface NotificationItem {
