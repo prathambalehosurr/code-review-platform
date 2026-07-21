@@ -219,7 +219,7 @@ cp .env.example .env
 From the project root, build and run the backend container:
 
 ```bash
-docker compose up --build
+docker compose up --build -d
 ```
 
 The Compose setup runs the backend in development mode, mounts the local source code into

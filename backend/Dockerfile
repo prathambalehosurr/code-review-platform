@@ -6,7 +6,7 @@ WORKDIR /app
 FROM base AS development
 ENV NODE_ENV=development
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 COPY . .
 EXPOSE 5000
 CMD ["npm", "run", "dev"]
