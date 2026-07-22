@@ -47,6 +47,7 @@ const startServer = async (): Promise<void> => {
       logger.info(`Backend server running on port ${environment.PORT}`);
     });
   } catch (error) {
+    console.error(error);
     logger.error(`Server startup failed: ${getErrorMessage(error)}`);
     process.exit(1);
   }
