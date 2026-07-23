@@ -24,7 +24,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@google/genai": "^2.11.0",
     "@octokit/rest": "^22.0.1",
     "bullmq": "^5.80.4",
     "cookie-parser": "^1.4.7",
@@ -35,6 +34,7 @@
     "ioredis": "^5.11.1",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.7.4",
+    "openai": "^6.48.0",
     "passport": "^0.7.0",
     "passport-github2": "^0.1.12",
     "swagger-jsdoc": "^6.3.0",

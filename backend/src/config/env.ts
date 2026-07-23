@@ -21,7 +21,7 @@ const environmentSchema = z.object({
   GITHUB_TOKEN: z.string().optional(),
   REDIS_URL: z.string().min(1),
 
-  GEMINI_API_KEY: z.string().min(1),
+  NVIDIA_API_KEY: z.string().min(1),
 });
 
 export const environment = environmentSchema.parse(process.env);

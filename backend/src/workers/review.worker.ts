@@ -153,7 +153,7 @@ export const startReviewWorker = (): Worker => {
         includeMaintainability: true,
         includeBestPractices: true,
         ignoredPaths: [],
-        model: 'gemini-2.5-flash',
+        model: 'meta/llama-3.1-8b-instruct',
       };
 
       if (!aiSettings.enabled) {

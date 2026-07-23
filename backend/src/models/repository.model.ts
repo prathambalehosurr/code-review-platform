@@ -18,9 +18,9 @@ const aiSettingsSchema = new Schema(
     ignoredPaths: { type: [String], required: true, default: [] },
     model: {
       type: String,
-      enum: ['gemini-2.5-flash', 'gemini-2.5-pro'],
+      enum: ['meta/llama-3.1-8b-instruct', 'meta/llama-3.1-70b-instruct'],
       required: true,
-      default: 'gemini-2.5-flash',
+      default: 'meta/llama-3.1-8b-instruct',
     },
   },
   { _id: false },

@@ -258,7 +258,7 @@ export type AiSettings = {
   includeMaintainability: boolean;
   includeBestPractices: boolean;
   ignoredPaths: string[];
-  model: 'gemini-2.5-flash' | 'gemini-2.5-pro';
+  model: 'meta/llama-3.1-8b-instruct' | 'meta/llama-3.1-70b-instruct';
 };
 
 export type UpdateAiSettingsInput = Partial<AiSettings>;

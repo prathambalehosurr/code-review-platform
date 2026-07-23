@@ -72,8 +72,8 @@ export const RepositorySettings: React.FC<Props> = ({ repositoryId }) => {
           {...register('model')}
           className="w-full h-10 px-3 rounded-xl bg-zinc-900 border border-zinc-800 text-sm text-zinc-300 focus:outline-none focus:border-red-500/50 transition-all"
         >
-          <option value="gemini-2.5-flash">Gemini 2.5 Flash (Faster)</option>
-          <option value="gemini-2.5-pro">Gemini 2.5 Pro (More thorough)</option>
+          <option value="meta/llama-3.1-8b-instruct">Llama 3.1 8B (Fast)</option>
+          <option value="meta/llama-3.1-70b-instruct">Llama 3.1 70B (More thorough)</option>
         </select>
       </div>
 
